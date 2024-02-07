@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website with Advertisement</title>
+<style>
+  /* Styling for the ad container */
+  .ad-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the ad heading */
+  .ad-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the ad description */
+  .ad-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the ad button */
+  .ad-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Styling for the ad button hover effect */
+  .ad-button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Welcome to Deal2Deal</h1>
+</header>
+
+<!-- Main Content -->
+<main>
+  <h2>Endless Deals Like You Have Never Seen!</h2>
+  <p>Providing the best offers and products.</p>
+</main>
+
+<!-- Advertisement Section -->
+<section class="ad-container">
+  <!-- Ad Heading -->
+  <h2 class="ad-heading">Special Offer!</h2>
+  <!-- Ad Description -->
+  <p class="ad-description">Limited time offer! Get 50% off on all products. Hurry up!</p>
+  <!-- Ad Button -->
+  <button class="ad-button" onclick="openNewWindow()">Shop Now</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>Contact us at: deal2deal@gmail.com</p>
+</footer>
+
+<!-- JavaScript for opening a new window -->
+<script>
+  function openNewWindow() {
+    var newWindow = window.open("", "NewWindow", "width=400,height=400");
+    newWindow.document.write("<h1 style='color: red;'>Surprise your device has been corrupted!</h1>");
+    newWindow.document.write("<img src='Skull image.jpg 'alt='Skull'>");
+  }
+</script>
+
+</body>
+</html>
